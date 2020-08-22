@@ -5,7 +5,7 @@ The Akan people of Ghana frequently name their children after the day of the wee
 Rustique Uwimpaye
 
 ## Live Link
-You can view the Portofolio here: 
+You can view the Portofolio here: rustique-uwimpaye.github.io/akan/.
 
 ## Languages Used
 HTML5
