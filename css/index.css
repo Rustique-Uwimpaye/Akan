@@ -1,0 +1,123 @@
+#navigation_bar{
+    display: flex;
+    background-color: purple;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#menu{
+    display: flex;
+
+}
+#menu ul{
+    display: flex;
+    padding-right:-200px;
+}
+#menu ul li{
+    display: flex;
+    list-style: none;
+    padding:10px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#menu ul li a:hover{
+    color:blue;
+}
+
+.container {
+    width: 100vw;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: purple;
+    box-shadow: 10px 10px 10px yellow;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.jumbotron{
+    border-radius:50px;
+    margin-top: 5px;
+}
+input[type=number]{
+    margin: 3px;
+    border-radius: 5px;
+    height: 40px;
+}
+input[type=reset]{
+    margin: 3px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+::placeholder{
+    font-size: 15px;
+    padding-left: 10px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+#result{
+    color:black;
+    background-color: rgb(235, 235, 76);
+    padding: 6px;
+    text-align: center;
+    font-weight: 400px;
+}
+article{
+    background-color:rgb(216, 105, 236);
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.checkbox{
+    color:purple;
+}
+.row{
+    display: center;
+}
+.footer{
+    background:purple;
+    color: #d3d3d3;
+    height: 350px;
+    position: relative;
+}
+#contact_us{
+    display: flex;
+    flex-direction: row;
+    /* height: 300px; */
+    align-items: center;
+    justify-content:center;
+    padding: 30px;
+}
+#contact_us, h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Facebook, #Instagram, #Email , #Call, #WhatsApp{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#Facebook img, #Instagram img, #Email img, #Call img, #WhatsApp img{
+    border-radius: 50%;
+}
+#Facebook img:hover, #Instagram img:hover, #Email img:hover, #Call img:hover, #WhatsApp img:hover{
+    transform: scale(2);
+}
+.footer .footer-bottom{
+    background:#212122;
+    color: #afafaf;
+    height:40px;
+    width:100%;
+    text-align:center;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    padding-top: 15px;
+}
+    
