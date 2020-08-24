@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+}
+
 #navigation_bar{
     display: flex;
     background-color: purple;
@@ -27,62 +31,18 @@
     color:yellow;
 }
 
-.container {
-    width: 100vw;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: purple;
-    box-shadow: 10px 10px 10px yellow;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+.about_akan{
+    font-size: x-large;
+    align-content: center;
 
 }
-.jumbotron{
-    border-radius:50px;
-    margin-top: 5px;
-}
-input[type=number]{
-    margin: 3px;
-    border-radius: 5px;
-    height: 40px;
-}
-input[type=reset]{
-    margin: 3px;
-    margin-left: 50px;
-    font-size: 20px;
-}
-::placeholder{
-    font-size: 15px;
-    padding-left: 10px;
-    color: black;
-    text-align: center;
-    font-style: italic;
-}
-#result{
-    color:black;
-    background-color: rgb(235, 235, 76);
-    padding: 6px;
-    text-align: center;
-    font-weight: 400px;
-}
-article{
-    background-color:rgb(216, 105, 236);
-    padding: 10px;
-    font-weight: bold;
-    color: black;
-    text-align: center;
-}
-.checkbox{
-    color:purple;
-}
-.row{
-    display: center;
-}
+
+
+
 .footer{
     background:purple;
     color: #d3d3d3;
-    height: 350px;
+    height: 320px;
     position: relative;
 }
 #contact_us{
@@ -120,4 +80,3 @@ article{
     left:0px;
     padding-top: 15px;
 }
-    
