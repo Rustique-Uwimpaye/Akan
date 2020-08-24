@@ -21,7 +21,7 @@
 #menu ul li{
     display: flex;
     list-style: none;
-    padding:20px;
+    padding:10px;
 }
 #menu ul li a{
     text-decoration: none;
@@ -31,19 +31,27 @@
     color:yellow;
 }
 
-.about_akan{
-    font-size: x-large;
-    align-content: center;
-    font-family: serif;
-
+.about{
+    border:2px solid black;
+    margin:20px;
+    padding:20px;
 }
-
+.akan{
+    display:flex;
+    border:2px solid black;
+    margin:20px;
+    padding:20px;
+    justify-content: space-around;
+}
+.akan-row{
+    display: flex;
+}
 
 
 .footer{
     background:purple;
     color: #d3d3d3;
-    height: 320px;
+    height: 350px;
     position: relative;
 }
 #contact_us{
