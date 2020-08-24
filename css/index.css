@@ -62,7 +62,7 @@ input[type=reset]{
 #result{
     color:black;
     background-color: rgb(235, 235, 76);
-    padding: 6px;
+    padding: 20px;
     text-align: center;
     font-weight: 400px;
 }
